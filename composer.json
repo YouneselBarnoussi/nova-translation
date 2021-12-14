@@ -7,9 +7,15 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "joedixon/laravel-translation": "^1.0.0"
+        "php": ">=8.0.0",
+        "joedixon/laravel-translation": "^1.2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:eduPHP/laravel-translation.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Joedixon\\NovaTranslation\\": "src/"
