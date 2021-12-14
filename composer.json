@@ -8,14 +8,8 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0.0",
-        "joedixon/laravel-translation": "^1.2.0"
+        "younes-el-barnoussi/laravel-translation": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:eduPHP/laravel-translation.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Joedixon\\NovaTranslation\\": "src/"
